@@ -123,7 +123,7 @@ export default function Projects() {
                     />
                   ) : (
                     <>
-                      <div className={`absolute inset-0 opacity-80 ${project.imagePlaceholder}`}></div>
+                      <div className={`absolute inset-0 opacity-80 ${(project as any).imagePlaceholder || 'bg-primary/20'}`}></div>
                       <div className="relative z-10 text-center p-8">
                         <Layers className="w-16 h-16 mx-auto mb-4 text-white/50" />
                         <p className="text-white/70 font-mono text-sm">Product Visual Placeholder</p>
