@@ -82,7 +82,7 @@ export default function Hero() {
               View Projects
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={cn(buttonVariants({ variant: "outline", size: "lg" }), "rounded-full px-8 text-base glass hover:bg-white/5 border-white/10")}>
+            <a href="/AKHIL%20MM.pdf" target="_blank" rel="noopener noreferrer" className={cn(buttonVariants({ variant: "outline", size: "lg" }), "rounded-full px-8 text-base glass hover:bg-white/5 border-white/10")}>
               <Download className="mr-2 h-4 w-4" />
               Download Resume
             </a>
