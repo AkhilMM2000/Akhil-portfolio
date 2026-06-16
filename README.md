@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Akhil M M | Full Stack Developer Portfolio
 
-## Getting Started
+Welcome to the source code of my personal portfolio. This project was built to showcase not only my professional experience and highlighted projects but also my engineering capabilities in frontend performance, modern CSS architecture, and Next.js full-stack features.
 
-First, run the development server:
+🌐 **[View Live Portfolio](https://akhil-portfolio.vercel.app/)** *(Replace with your actual Vercel URL if different)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Technical Architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This portfolio is not just a static site; it's a highly optimized, production-ready web application built with a modern tech stack:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 15 (App Router) for Server-Side Rendering (SSR) and optimized bundle sizes.
+- **Language**: 100% TypeScript for robust, type-safe code.
+- **Styling**: Tailwind CSS v4 utilizing custom OKLCH color spaces, advanced glassmorphism techniques, and CSS variables for theming.
+- **Animations**: Framer Motion for scroll-linked animations, micro-interactions, and fluid component mounting.
+- **Backend/API**: Next.js Route Handlers integrated with `nodemailer` for a fully functional, server-side contact form.
+- **UI Components**: ShadCN UI (accessible, headless Radix UI components).
+- **Performance**: Heavy utilization of `next/dynamic` for lazy-loading below-the-fold sections, ensuring maximum Lighthouse performance scores.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Featured Projects Showcased
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The portfolio acts as a gateway to my most complex, full-stack applications:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. Sarathi – Specialized Driver-On-Demand Platform
+A complex ride-booking ecosystem bridging car owners with verified drivers.
+- **Tech**: Node.js, Express, TSyringe (Clean Architecture), WebRTC, Socket.IO, Stripe.
+- **Highlights**: Peer-to-peer video calling, automatic 90/10 Stripe fare splitting, and robust SOLID backend design.
 
-## Deploy on Vercel
+### 2. AI-Powered Real-Time Group Chat
+A futuristic real-time messaging platform augmented with AI.
+- **Tech**: Next.js, Gemini API, MongoDB Atlas Vector Search, TanStack Virtual.
+- **Highlights**: Custom RAG pipeline for semantic context retrieval, hyper-optimized virtualized message rendering for infinite scroll, and strict JWT authentication.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. Eyegaze – Premium E-Commerce Platform
+A comprehensive, business-ready eyewear e-commerce solution.
+- **Tech**: Node.js, EJS, MongoDB, Razorpay, Chart.js.
+- **Highlights**: Persistent cart management, Razorpay payment gateway, and a premium Admin Dashboard with real-time business metric visualizations.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ⚙️ Local Development Setup
+
+If you'd like to clone and run this portfolio locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AkhilMM2000/Akhil-portfolio.git
+   cd Akhil-portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables**
+   Create a `.env.local` file in the root directory and add your own credentials:
+   ```env
+   # Owner Info
+   NEXT_PUBLIC_PORTFOLIO_OWNER_NAME="Akhil M M"
+   NEXT_PUBLIC_PORTFOLIO_OWNER_TITLE="Full Stack Developer"
+   NEXT_PUBLIC_GITHUB_URL="https://github.com/AkhilMM2000"
+   NEXT_PUBLIC_LINKEDIN_URL="https://www.linkedin.com/in/akhil-m-m-mernstack/"
+   NEXT_PUBLIC_EMAIL_ADDRESS="your_email@gmail.com"
+   NEXT_PUBLIC_PHONE_NUMBER="+91 0000000000"
+
+   # Contact Form Nodemailer Setup (Optional)
+   EMAIL_USER="your_email@gmail.com"
+   EMAIL_PASS="your_google_app_password"
+   
+   # Add your specific Project URLs as defined in the source code...
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📬 Contact & Connect
+
+I am currently open to new opportunities! Feel free to reach out:
+- **LinkedIn**: [Akhil M M](https://www.linkedin.com/in/akhil-m-m-mernstack/)
+- **GitHub**: [AkhilMM2000](https://github.com/AkhilMM2000)
+
+*Designed and engineered by Akhil M M.*
